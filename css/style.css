@@ -1,0 +1,75 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.menu{
+    background-color: #A5C0DD;
+    height: 150px;
+}
+    
+.nombre-titulo{
+    display: flex;
+    position: absolute;
+    left: 370px;
+    top: 40px;
+}
+
+.cv-titulo{
+    /* border: 1px solid red; */
+    display: flex;
+    position: absolute;
+    left: 410px;
+    top: 90px;
+}
+
+.imagen{
+    display: flex;
+    position: absolute;
+    height: 120px;
+    left: 850px;
+}
+
+.foto{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 20px;
+}
+
+
+.apartado-contenedor{
+    border: 1px solid black;
+    display: flex;
+
+}
+.acerca-titulo{
+    position:relative;
+    left: 250px;
+    font-size: 18px;
+}
+.informacion-contenedor{
+    border: 1px solid blue;
+    width: 650px;
+    /* background-color: #b9cbdf; */
+}
+
+.titulo-formacion{
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+}
+
+.titulo-contacto{
+    position: relative;
+    left: 80px;
+    font-size: 18px;
+}
+
+.experiencia-contenedor{
+    border: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -140px;
+    width: 1000px;
+}
